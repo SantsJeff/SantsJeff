@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SantsJeff
 - 👀 I’m interested in fullstack
-- 🌱 I’m currently learning python
+- 🌱 I’m currently learning HTML, CSS Java Script
 - 💞️ I’m looking to collaborate on my Life 
 
 
