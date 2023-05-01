@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background:url(fundo-geometrico-com-espaco-de-copia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: justify;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #333333;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+a {
+  display: flex;
+  justify-content: space-between;
+  text-shadow: 0px 2px 10px #333333 ;
+  text-align: justify;
+  color: #0f0f0a9a;
+  font-size: 22px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #666666;
+}
+
+button {
+  background-color: #333333;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #666666;
+}
+
+input[type="text"], input[type="email"], textarea {
+  border: 1px solid #CCCCCC;
+  background-color: cornsilk;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #333333;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #666666;
+}
+
+ul {
+  list-style: none; /* remove as bolinhas */
+  display: flex; /* ativa o flexbox */
+  justify-content: center; /* alinha os itens horizontalmente ao centro */
+  align-items: center; /* alinha os itens verticalmente ao centro */
+  
+}
+
+
+li {
+  margin: 0 10px; /* adiciona uma margem entre os itens para melhorar a aparência */
+}
+
+.item{
+  display: flex; /* ativa o flexbox */
+  justify-content: center; /* alinha os itens horizontalmente ao centro */
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.remover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 2em;
+  text-align: justify;
+  font-size: 12px;
+}
+
+label{
+  display: inline-flex;
+}
+
+#btnTopo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+#btnTopo:hover {
+  opacity: 0.7;
+}
+
+footer {
+ 
+  background-color: #cdcaca;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer a {
+  display: flex;
+  align-items:center ;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #333;
+}

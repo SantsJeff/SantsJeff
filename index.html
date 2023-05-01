@@ -1,50 +1,138 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Com muito Amor </title>
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
+  <head>
+    <meta charset="UTF-8">
+    <title>Planner da Casa</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Planner da Casa</h1>
+      <nav>
+        <ul>
+          <li><a href="#vestuario">Vestuário</a></li>
+          <li><a href="#lazer">Lazer</a></li>
+          <li><a href="#ferias">Férias</a></li>
+          <li><a href="#saude">Saúde</a></li>
+          <li><a href="#farmacia">Farmácia</a></li>
+          <li><a href="#carro">Carro</a></li>
+          <li><a href="#chattprints">Projeto ChattPrints</a></li>
+          <li><a href="#itens-casa">Itens para Casa</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="vestuario">
+        <h2>Look Jefferson</h2>
+        <form>
+          <input type="text" placeholder="Adicionar item...">
+          <button type="submit">Adicionar</button>
+        </form>
+        <ul class="item">
+        </ul class="item">
+      </section>
+      <section id="vestuario">
+        <h2>Look Jane</h2>
+        <form>
+          <input type="text" placeholder="Adicionar item...">
+          <button type="submit">Adicionar</button>
+        </form>
+        <ul class="item">
+        </ul class="item">
+      </section>
+      <section id="vestuario">
+        <h2>Look do Theozinho</h2>
+        <form>
+          <input type="text" placeholder="Adicionar item...">
+          <button type="submit">Adicionar</button>
+        </form>
+        <ul class="item">
+        </ul class="item">
+      </section>
+      <section id="lazer">
+        <h2>Lazer</h2>
+        <form>
+          <input type="text" placeholder="Adicionar item...">
+          <button type="submit">Adicionar</button>
+        </form>
+        <ul class="item">
+        </ul class="item">
+      </section>
+      <section id="ferias">
+        <h2>Férias</h2>
+        <form>
+          <input type="text" placeholder="Adicionar item...">
+          <button type="submit">Adicionar</button>
+        </form>
+        <ul class="item">
+        </ul class="item">
+        </section>
+        <section id="saude">
+          <h2>Saúde</h2>
+          <form>
+            <input type="text" placeholder="Adicionar item...">
+            <button type="submit">Adicionar</button>
+          </form>
+          <ul class="item">
+          </ul class="item">
+        </section>
+        <section id="farmacia">
+          <h2>Farmácia</h2>
+          <form>
+            <input type="text" placeholder="Adicionar item...">
+            <button type="submit">Adicionar</button>
+          </form>
+          <ul class="item">
+          </ul class="item">
+        </section>
+        <section id="carro">
+          <h2>Carro</h2>
+          <form>
+            <input type="text" placeholder="Adicionar item...">
+            <button type="submit">Adicionar</button>
+          </form>
+          <ul class="item">
+          </ul>
+        </section>
+        <section id="chattprints">
+          <h2>Projeto ChattPrints</h2>
+          <form>
+            <input type="text" placeholder="Adicionar item...">
+            <button type="submit">Adicionar</button>
+          </form>
+          <ul class="item">
+          </ul>  
+        </section>
+        <section id="itens-casa">
+          <h2>Itens para Casa</h2>
+          <form>
+            <input type="text" placeholder="Adicionar item...">
+            <button type="submit">Adicionar</button>
+          </form>
+          <ul class="item">
+          </ul>
+        </section>
+        <section">
+          <button id="btnTopo" title="Voltar para o topo">&#9650;</button>
+        </section>
+        <footer>
+          <div class="container">
+            <p>© Copyrigth 2023 <a href="https://github.com/SantsJeff/SantsJeff">SantsJeff</a></p>
+          </div>
+        </footer>
+        
+        <script src="planner.js"></script>
+        <script>
+          adicionarItem('vestuario');
+          adicionarItem('lazer');
+          adicionarItem('ferias');
+          adicionarItem('saude');
+          adicionarItem('farmacia');
+          adicionarItem('carro');
+          adicionarItem('projetoChattPrints');
+          adicionarItem('itensCasa');
+        </script>
+      </body>
+    </html>
 
-    body {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      background-color: #F5F5DC;
-    }
-
-    h1 {
-      color: #556B2F;
-    }
-    .button {
-      align-content: center;
-      background-color: #556B2F;
-      border: none;
-      border-radius: 14px;
-      color: #F5F5DC;
-      padding: 15px 32px;
-      text-decoration: none;
-      text-align: center;
-      justify-content: center;
-      display: flex;
-      font-size: 16px;
-      margin: 4px 2px;
-      width: 30%;
-      cursor: pointer;
-    }
-  </style>
-</head>
-<body>
-  <h1>Uma pequena homenagem para a mulher da minha vida ❤️👩🏻‍🤝‍👨🏽</h1>
-  <p>
-    FELIZ DIA DAS MULHERES MINHA ETERNA AMADA!
-  </p>
-  <button class="button" onclick="window.location.href='https://youtu.be/da1qzKc9cis' ">Assista ao vídeo</button>
-</body>
-</html>
+            
