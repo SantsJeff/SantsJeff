@@ -63,3 +63,25 @@ window.addEventListener('scroll', function() {
 document.getElementById('btnTopo').addEventListener('click', function() {
   window.scrollTo({top: 0, behavior: 'smooth'});
 });
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDBuv_hfXJaj2Gn2lzOVB97gwL7nBKMWGs",
+  authDomain: "nossoplanner.firebaseapp.com",
+  projectId: "nossoplanner",
+  storageBucket: "nossoplanner.appspot.com",
+  messagingSenderId: "380508014454",
+  appId: "1:380508014454:web:829bfcd85913f251a09c57",
+  measurementId: "G-4W7H1KEE2Y"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
